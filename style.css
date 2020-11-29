@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", Montserrat, sans-serif;
+}
+
+header {
+    background: url(images/header-img.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    top: 0;
+    height: 520px;
+    display: flex;
+    box-sizing: border-box;
+    flex-flow: column;
+    position: absolute;
+    /* width: 100%; */
+    box-sizing: border-box;
+}
+
+header .header-text {
+    margin: 70px auto;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wrapper {
+    display: flex;
+    flex-basis: 800px;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+
+/*  The column and image type */
+
+.col {
+    color: white;
+    display: flex;
+}
+
+.left {
+    margin-left: 190px;
+    top: 286px;
+    display: block;
+}
+
+.right {
+    flex-shrink: 2;
+}
+
+
+/* Full Stack dev */
+
+.left h2 {
+    color: #755cbb;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47px;
+}
+
+.left span {
+    color: white;
+}
+
+
+/*  DEV IMAGE ABEG NO DEY CONFUSE ME!!! */
+
+.col .dev-img {
+    height: 770px;
+    width: 640px;
+    margin-top: -50px;
+    margin-right: 170px;
+    /*  */
+}
+
+
+/* Touch of style */
+
+.touch {
+    padding-top: 9px;
+    display: flex;
+    font-size: 20px;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.44);
+}
+
+.touch p {
+    padding-right: 10px;
+}
+
+
+/* P tags with color */
+
+.p1 {
+    color: #ef7df6;
+}
+
+.p2 {
+    color: #ffbcaf;
+}
+
+.p3 {
+    color: #1e62ce;
+}
+
+.p4 {
+    color: #d43434;
+}
+
+.p5 {
+    color: #e6f90a;
+}
+
+
+/* End of touch of style */
+
+.core-skills {
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-right: 20px ; */
+    top: 0;
+    margin-top: 50px;
+}
+
+.social-icons a {
+    cursor: pointer;
+}
+
+.social-icons a img {
+    width: 25px;
+    padding-right: 25px;
+    flex-shrink: 1;
+}
+
+.social-icons a img:hover {
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.8);
+    width: 28px;
+    /* background: #1e62ce; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.hire-button {
+    position: absolute;
+    width: 142px;
+    font-weight: 500;
+    /* height: 41px; */
+    left: 190px;
+    top: 515px;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    background: linear-gradient(276.2deg, #ff9595 26.7%, #5625df 84.74%);
+    border-radius: 11px;
+    transition: ease 0.5s;
+}
+
+.hire-button:hover {
+    opacity: 75%;
+    transition: ease 0.5s;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.line {
+    display: none;
+}
+
+
+/* ABOUT SECTION  */
+
+#about {
+    margin: 100vh auto;
+    min-width: 100%;
+    height: 100vh;
+    background: url(images/bg-skills.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    right: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 760px) {
+    header {
+        background: url(images/dev-img-small.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        right: 0px;
+        /* background-attachment: fixed; */
+        height: 100vh;
+        box-sizing: border-box;
+        right: 0;
+        /* position: absolute; */
+    }
+    body {}
+    .left {
+        margin-left: 50px;
+        top: 270px;
+        margin-top: -30px;
+        display: block;
+    }
+    .left h2 {
+        font-size: 35px;
+        max-width: 200px;
+        font-weight: bold;
+        line-height: 47px;
+    }
+    header .header-text {
+        margin: 70px 40px;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .social-icons a img {
+        width: 25px;
+        padding-right: 15px;
+        flex-shrink: 1;
+    }
+    .hire-button {
+        position: absolute;
+        width: 142px;
+        font-weight: 500;
+        /* height: 41px; */
+        left: 44px;
+        top: 515px;
+        max-width: 79px;
+        color: white;
+        text-align: center;
+        padding: 15px 18px;
+        background: linear-gradient(276.2deg, #ff9595 26.7%, #5625df 84.74%);
+        border-radius: 11px;
+        transition: ease 0.7s;
+    }
+    #about {
+        top: 100vh;
+    }
+    .line {
+        position: absolute;
+        width: 5px;
+        height: 216px;
+        left: 34px;
+        top: 238px;
+        background: #cf6074;
+    }
+    .col .dev-img {
+        left: 79px;
+        top: 416px;
+        margin-top: 80px;
+    }
+}
