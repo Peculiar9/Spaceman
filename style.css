@@ -195,6 +195,9 @@ a {
 }
 
 @media screen and (max-width: 760px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         background: url(images/dev-img-small.png);
         background-repeat: no-repeat;
@@ -205,11 +208,10 @@ a {
         /* background-attachment: fixed; */
         height: 100vh;
         box-sizing: border-box;
-        overflow-x: hidden;
-/*        right: 0;*/
+        right: 0;
         /* position: absolute; */
     }
-    body {}
+    /* body {} */
     .left {
         margin-left: 50px;
         top: 270px;
