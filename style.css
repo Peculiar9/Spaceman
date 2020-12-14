@@ -205,7 +205,8 @@ a {
         /* background-attachment: fixed; */
         height: 100vh;
         box-sizing: border-box;
-        right: 0;
+        overflow-x: hidden;
+/*        right: 0;*/
         /* position: absolute; */
     }
     body {}
